@@ -7,6 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          light: '#EBEAFF',
+          blue1: '#9694FF',
+          blue2: '#3D3BF3',
+          red: "#FF2929",
+          black: "#3C3D37"
+        },
+      },
+      fontFamily: {
+        'mono': ['Overpass Mono', 'monospace'], // Add the font here
+      },
       backgroundImage: {
         gradient:
           "linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82)",
@@ -58,11 +70,4 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
-  daisyui: {
-    // Light & dark themes are added by default (it switches automatically based on OS settings)
-    // You can add another theme among the list of 30+
-    // Add "data-theme='theme_name" to any HTML tag to enable the 'theme_name' theme.
-    // https://daisyui.com/
-    themes: ["light", "dark"],
-  },
 };

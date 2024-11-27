@@ -1,10 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;500;600;700&display=swap');
 
 html,
 body {
   scroll-behavior: smooth !important;
+  background-color: #EBEAFF !important;
+  min-height: 100vh;
 }
 
 /* It makes the HTML progress bar filling smooth when value change. */
