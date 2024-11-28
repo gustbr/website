@@ -49,7 +49,7 @@ export default function Page() {
                 </a>
 
                 <a
-                  href="https://github.com/your-github-username"
+                  href="https://github.com/gustbr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-primary-black hover:text-primary-red transition-colors"
