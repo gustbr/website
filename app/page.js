@@ -66,7 +66,7 @@ export default function Page() {
             </div>
           </div>
         <p className="bg-primary-blue1 text-white py-0.5 text-lg mx-4 sm:mx-auto max-w-prose rounded-lg font-semibold mt-12">
-          🏗️ Side projects
+          🏗️ Side project
         </p>
         <a href="https://researchinbooks.com" target="_blank" rel="noopener noreferrer">
           <Image
