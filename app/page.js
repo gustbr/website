@@ -1,6 +1,7 @@
 import Image from "next/image";
 import gustin from "./gust.png";
 import Testimonials from "@/components/Testimonials.js";
+import researchinbooks from "./researchinbooks.png";
 
 export default function Page() {
   return (
@@ -36,6 +37,7 @@ export default function Page() {
                   LinkedIn
                 </a>
 
+                {/* Social media link to X/Twitter profile
                 <a
                   href="https://x.com/gustinbrun"
                   target="_blank"
@@ -47,6 +49,7 @@ export default function Page() {
                   </svg>
                   Follow my adventures
                 </a>
+                */}
 
                 <a
                   href="https://github.com/gustbr"
@@ -62,6 +65,22 @@ export default function Page() {
               </div>
             </div>
           </div>
+        <p className="bg-primary-blue1 text-white py-0.5 text-lg mx-4 sm:mx-auto max-w-prose rounded-lg font-semibold mt-12">
+          🏗️ Side projects
+        </p>
+        <a href="https://researchinbooks.com" target="_blank" rel="noopener noreferrer">
+          <Image
+            src={researchinbooks}
+            alt="Description of image"
+            width={60}
+            height={60}
+            className="rounded-lg mx-auto mt-12"
+          />
+        </a>
+        <p className="text-primary-black text-left mx-auto max-w-prose mt-6">
+        An AI-powered chat tool that lets you interact with your Kindle books in a whole new way. Dive deeper, ask questions, and explore your favorite reads like never before—all in real-time.
+        </p>
+
         <p className="bg-primary-blue1 text-white py-0.5 text-lg mx-4 sm:mx-auto max-w-prose rounded-lg font-semibold mt-12">
           🫶 Wall Of Love
         </p>
