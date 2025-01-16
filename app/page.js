@@ -20,7 +20,7 @@ export default function Page() {
             <div>
               <p className="text-primary-black text-base text-left mt-6 mb-3 text-center">Hi I&apos;m Gust</p>
               <div className="mx-[5px]">
-                <p className="text-primary-black text-left mx-auto max-w-prose">My journey started in construction, learning the value of hard work and craftsmanship while restoring historic castles. A back injury forced me to pivot, but it also sparked my passion for problem-solving through technology.
+                <p className="text-primary-black text-left mx-auto max-w-prose">My journey started in construction, learning the value of hard work and craftsmanship while restoring historic castles. A necessary career pivot ignited my passion for solving problems through technology.
                 From managing €60,000 ad budgets to building bots analyzing 300,000+ companies daily, I’ve turned every challenge into an opportunity to innovate. Now, I focus on creating AI agents that deliver results.</p>
               </div>
 
