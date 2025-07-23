@@ -53,7 +53,7 @@ const Testimonials = () => {
     },
     {
       image: sp2,
-      quote: "Gestion Temps Travail enables us to track the time spent working on each site/intervention on a daily basis. It has reduced the workload of our administrative department by 50%. Augustin is a responsive professional who was able to quickly integrate the software within our company.",
+      quote: "He developed software enables us to track the time spent working on each site/intervention on a daily basis. It has reduced the workload of our administrative department by 50%. Augustin is a responsive professional who was able to quickly integrate the software within our company.",
       name: "Jérôme B.",
       role: "CEO @ Innov'Élevage"
     },
