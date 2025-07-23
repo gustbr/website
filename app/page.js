@@ -8,7 +8,7 @@ export default function Page() {
     <>
       <main>
         <section className=" text-center mt-12 ">
-        <h1 className="bg-primary-blue2 text-white py-0.5 text-lg mx-4 sm:mx-auto max-w-prose rounded-lg font-semibold">👨🏼 Building AI Agents</h1>
+        <h1 className="bg-primary-blue2 text-white py-0.5 text-lg mx-4 sm:mx-auto max-w-prose rounded-lg font-semibold">👨🏼 Building the future of Mental Health 🌱</h1>
           <div className="grid grid-cols-1 gap-4">
             <Image
               src={gustin}
